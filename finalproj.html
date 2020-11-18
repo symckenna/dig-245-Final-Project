@@ -15,19 +15,33 @@
 
 h1 {
   text-align: center;
+  color: #2185d8;
 }
 
 .grid-container {
   display: grid;
-  grid-template-columns: auto auto auto auto;
-  padding: 10px;
+  grid-template-columns: auto auto auto auto auto auto auto auto auto auto;
 }
 
 .grid-container > div {
   text-align: center;
-  padding: 20px 0;
+  padding: 20px;
   font-size: 30px;
 }
+
+.captions {
+  display: grid;
+  grid-template-columns: auto auto auto auto;
+  text-align: center;
+  color: black;
+}
+
+.captions > div {
+  text-align: center;
+  padding: 20px;
+  font-size: 30px;
+}
+
 
 </style>
 
@@ -36,32 +50,45 @@ h1 {
 <body>
 <!-- visible content goes here -->
 
+<br>
+
 <h1> Facebook profile page design here <h1>
 
 <div style = "position:absolute; left:70px; top:350px; font-size:12px;">
-       Where Facebook extras on profile go.
+       Where Facebook extras <br> on profile go.
     </div>
-<br>
-<br>
-<br>
 <br>
 
-<div style = " text-align: center; font-size:12px;">
-   Click Political Ad 1 or Ad 2 to be redirected.
-    </div>
+<div class="captions">
+  <div class="item1"> </div>
+  <div class="item2">
+    <a> Clicking Biden? </a>
+</div>
+  <div class="item3">
+    <a> Clicking Trump? </a>
+  </div>
+  <div class="item4"> </div>
+</div>
+
 
 <div class="grid-container">
+  <div class="item4"> </div>
+  <div class="item4"> </div>
+  <div class="item4"> </div>
   <div class="item1"> </div>
   <div class="item2">
     <a href="./ad1link.html">
-      <img src="/bidengood.jpg" class="img-fluid rounded mx-auto d-block" width="100" height="132"> </img>
+      <img src="./images/bidengood.jpg" class="img-fluid" width="300" height="402"> </img>
     </a>
 </div>
   <div class="item3">
     <a href="./ad2link.html">
-      <img src="/trumpgood.jpg" class="img-fluid rounded mx-auto d-block" width="100" height="132"> </img> 
+      <img src="./images/trumpgood.jpg" class="img-fluid rounded mx-auto d-block" width="350" height="469"> </img>
     </a>
   </div>
+  <div class="item4"> </div>
+  <div class="item4"> </div>
+  <div class="item4"> </div>
   <div class="item4"> </div>
 </div>
 

@@ -12,7 +12,33 @@
 <link rel="stylesheet" href="assets/css/styles.css">
 
 <style>
+h3 {
+  text-align: center;
+  color: #2185d8;
+}
 
+.grid-container {
+  display: grid;
+  grid-template-columns: auto auto auto auto auto auto auto auto auto auto;
+}
+
+.grid-container > div {
+  text-align: center;
+  padding: 20px;
+  font-size: 30px;
+}
+
+.captions {
+  display: grid;
+  grid-template-columns: auto auto auto auto;
+  text-align: center;
+}
+
+.captions > div {
+  text-align: center;
+  padding: 20px;
+  font-size: 30px;
+}
 
 </style>
 
@@ -20,26 +46,50 @@
 
 <body>
 <!-- visible content goes here -->
+<br>
+<br>
 
-<h4 style = "text-align:center ; top:50px;">
-           because this is a game, I am going to include either they clicked the "right ad" or the wrong ad and why, and keep them looped into this never ending game.
-           I will also either directly bring them to a real or spoof site dependent on the ad clicked
-        </h4>
+<h3 style = "text-align:center ; top:50px;">
+           LOL, choosing Trump, <i>seriously</i>? You're letting our country down <br>
+           choosing him.  Biden is the leader for <b>OUR</b> people, see what he has done!
+        </h3>
 
-<div style = "position:absolute; left:510px; top:270px; font-size:12px;">
-           Click Political Ad 5 or Ad 6 to be redirected.
-        </div>
+<!-- red for republican ad and blue for democrat ad -->
+<br>
+<br>
 
-<h2 style = "position:absolute; left:470px; top:310px;">
-  <a href="./ad5link.html"> Ad # 5 </a>
-  <h2>
+<div class="captions">
+  <div class="item1"> </div>
+  <div class="item2">
+    <a style: "font-size: 15px"> Say HBD to Trump ;) </a>
+</div>
+  <div class="item3">
+    <a > Look at his following! </a>
+  </div>
+  <div class="item4"> </div>
+</div>
 
-<h2 style = "position:absolute; right:470px; top:310px;">
-  <a href="./ad6link.html"> AD # 6 </a>
-  <h2>
 
-
-
+<div class="grid-container">
+  <div class="item4"> </div>
+  <div class="item4"> </div>
+  <div class="item4"> </div>
+  <div class="item1"> </div>
+  <div class="item2">
+    <a href="./ad3link.html">
+      <img src="./images/bidengood4.jpg" class="img-fluid rounded mx-auto d-block" width="300" height="402"> </img>
+    </a>
+</div>
+  <div class="item3">
+    <a href="./ad4link.html">
+      <img src="./images/bidengood2.jpg" class="img-fluid rounded mx-auto d-block" width="350" height="469"> </img>
+    </a>
+  </div>
+  <div class="item4"> </div>
+  <div class="item4"> </div>
+  <div class="item4"> </div>
+  <div class="item4"> </div>
+</div>
 
 
 
